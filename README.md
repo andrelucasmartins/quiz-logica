@@ -21,8 +21,9 @@ for(let i = 1; i <=8; i++){
 
 ```
 ## Fibonacci ou proporção Aurea
-<p>0 1 2 3 4 5  6</p>
-<p>1 1 2 3 5 8 13</p>
+<p>0 1 2 3 4 5  6 -> Índice<br />
+    1 1 2 3 5 8 13 -> resultado</p>
+<p>Qual é o valor do resultado se o índice é igual à 10?
 
 ```js
 fibonacci = n =>{
@@ -30,7 +31,8 @@ fibonacci = n =>{
     return fibonacci(n-1) + fibonacci(n-2)
 }
 
-for(let i =0; i<= 8; i++)
+const p = 10
+for(let i =0; i<= p; i++)
     console.log(`${i} ${fibonacci(i)}`)
 
 ```

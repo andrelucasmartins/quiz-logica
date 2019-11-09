@@ -5,5 +5,6 @@ fibonacci = n =>{
     return fibonacci(n-1) + fibonacci(n-2)
 }
 
-for(let i =0; i<= 8; i++)
+const p = 10
+for(let i =0; i<= p; i++)
     console.log(`${i} ${fibonacci(i)}`)
