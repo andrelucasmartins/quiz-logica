@@ -1,3 +1,4 @@
+// Adivinhe o proximo resultado
 let number = 4
 for(let i = 1; i <=8; i++){
     if(i == 1)
